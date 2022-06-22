@@ -1,0 +1,16 @@
+.container img{
+    border-radius: 20px;
+    width: 350px;
+    height: 300px;
+}
+.card{
+    border-radius: 10px;
+
+}
+.center{
+    align-items: center;
+}
+.paragraph{
+    text-align: center;
+}
+
