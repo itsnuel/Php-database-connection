@@ -1,0 +1,21 @@
+form{
+    width: 750px;
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    border-style: groove;
+    border-radius: 20px;
+}
+.paragraph{
+    text-align: center;
+}
+select{
+    width: 300px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+}
+.pr{
+    text-align: center;
+}

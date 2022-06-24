@@ -6,23 +6,13 @@ $database='zalego';
 
 $conn=mysqli_connect($server,$username,$password,$database);
 
-if(isset($_POST['submitbutton']))
+if(isset($_POST['submit']))
 {
   $email=$_POST['email'];
 
   $emaildata=mysqli_query($conn, "INSERT INTO
   subscribers(email)VALUES('$email')");
 }
-
-if($emaildata)
-{
-  echo 'done';
-}
-else
-{
-  echo 'not';
-}
-
 
 ?>
 
@@ -56,7 +46,7 @@ else
                 <div class="navbar-nav">
                     <a href="index.php" class="nav-link active">Home</a>
                     <a href="#" class="nav-link">About Us</a>
-                    <a href="#" class="nav-link">Contact Us</a>
+                    <a href="enroll.php" class="nav-link btn btn-primary">Register Now</a>
                 </div>
             </div>
         </div>
@@ -138,7 +128,7 @@ else
 
 
         <div class="col-lg-6">
-          <button type="submit" name="submitbutton" class="btn btn-primary" >Subscribe</button>
+          <button type="submit" name="submit" class="btn btn-primary" >Subscribe</button>
         </div>
 
       </div>

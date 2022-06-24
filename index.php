@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +25,7 @@
                 <div class="navbar-nav">
                     <a href="#" class="nav-link active">Home</a>
                     <a href="about.php" class="nav-link">About Us</a>
-                    <a href="#" class="nav-link">Contact Us</a>
+                    <a href="enroll.php" class="nav-link btn btn-primary">Register Now</a>
                 </div>
             </div>
         </div>
