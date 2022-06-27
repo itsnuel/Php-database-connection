@@ -23,11 +23,11 @@ if(isset($_POST['submit']))
 
     if($data)
     {
-        echo 'Data submitted successfully';
+        $message='Data submitted successfully';
     }
     else
     {
-        echo 'Error occured';
+        $message='Error occured';
     }
 }
 
@@ -85,6 +85,15 @@ if(isset($_POST['submit']))
 
              <form action="enroll.php" method="POST">
 
+             <?php 
+                
+                if($message)
+                {
+                    include('message.php');
+                }
+                
+                
+                ?>
 
                     <div class="row">
                         
