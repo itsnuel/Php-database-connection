@@ -69,10 +69,10 @@ if(isset($_POST['submit']))
              <main class="p-5 mb-4 bg-light">
                 <h1>JULY SOFTWARE ENGINEERING BOOTCAMP</h1>
 
-                        <span><i class="fa fa-calendar"></i></span>
+                        <span><i class="fa fa-calendar fa-2x"></i></span>
                         <span>20th July 2022</span>
                 <br>
-                        <span><i class="fa fa-map-marker"></i></span>
+                        <span><i class="fa fa-map-marker fa-2x"></i></span>
                         <span>Zalego Academy,</span> <br>
                         <span>Devan Plaza</span>
                 
@@ -130,8 +130,8 @@ if(isset($_POST['submit']))
                                 <br>
                                 <select name="course" id="course">
                                     <option value="">--Select your course--</option>
-                                    <option value=""></option>
-                                    <option value=""></option>
+                                    <option value="cyber">cyber</option>
+                                    <option value="android">android</option>
                                 </select>
 
                         </div>
